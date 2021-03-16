@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color:BLACK;
+  color:white;
+}
+
+
+#cumtenedor{
+  display:grid;
+  border: 1px solid white;
+  margin: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:  calc(15vh) calc(5vh);
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+}
+
+#cumtenedor .titulogrosso{
+  grid-column: 1/5;
+  grid-row: 1/2;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  position: relative;
+  border: 2px solid white;
+  background-image: url("../img/efosas.jpeg");
+}
+
+
+p {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+p a{
+  font-size: 20px;
+  text-align: center;
+  margin: 8px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+#cumtenedor .navegacion1{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+
+}
+
+#cumtenedor .navegacion2{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+
+}
+
+#cumtenedor .navegacion3{
+  grid-column: 3/4;
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+
+}
+
+#cumtenedor .navegacion4{
+  grid-column: 4/5;
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+}
+.cum-cum::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s
+}
+.cum-cum:hover::after{
+  width: 100%;
+  transition: width .3s
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  border-radius: 22px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color: grey;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#cumcumtenedor{
+  display:grid;
+  border: 1px solid white;
+  margin: 20px;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:  calc(30vh) calc(30vh) calc(30vh) calc(30vh);
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+}
+
+#cumcumtenedor .entrevista1 img{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  position: relative;
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+}
+#cumcumtenedor .entrevista2 img{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  position: relative;
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+}
