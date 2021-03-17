@@ -12,7 +12,7 @@ body{
 
 #cumtenedor{
   display:grid;
-  border: 1px solid white;
+  border: 1px solid black;
   margin: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows:  calc(15vh) calc(5vh);
@@ -45,7 +45,13 @@ p a{
   margin: 8px;
   text-decoration: none;
   color: #fff;
-
+}
+h2 {
+  font-size: 10px;
+  text-align: left;
+  margin:10px;
+  text-decoration: none;
+  color: #fff;
 }
 
 #cumtenedor .navegacion1{
@@ -99,7 +105,7 @@ p a{
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #black;
 }
 .flip-card-inner {
   position: relative;
@@ -139,21 +145,69 @@ p a{
   grid-template-rows:  calc(30vh) calc(30vh) calc(30vh) calc(30vh);
   grid-column-gap: 7px;
   grid-row-gap: 7px;
+  grid-gap: 20px;
+  padding: 20px;
 }
 
 #cumcumtenedor .entrevista1 img{
   grid-column: 1/2;
   grid-row: 1/2;
   position: relative;
-  border-radius: 30px;
   height: 100%;
   width: 100%;
+  border-radius: 30px;
 }
 #cumcumtenedor .entrevista2 img{
   grid-column: 2/3;
   grid-row: 1/2;
   position: relative;
-  border-radius: 30px;
   height: 100%;
   width: 100%;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffa500}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
 }
