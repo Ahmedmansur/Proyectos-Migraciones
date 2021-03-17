@@ -1,59 +1,100 @@
-*{
-  margin:0;
-  padding:0;
+:root{
+  --dark: #333;
+  --light: #fff;
+  --primary: #eee;
+  --shadow:  0px 1px 5px rgba(104, 104, 104, 0.5);
+  background:#0a192f;
+  color: #8892b0;
 }
-
+html{
+  box-sizing: border-box;
+  font-family: 'Courier New', sans-serif ;
+  margin: 0;
+}
 body{
-  font-family: 'Raleway', arial;
-  background-color:BLACK;
-  color:white;
-  font-size: 22px;
-  text-align: center;
-}
-
-#main-header {
-	background: #333;
-	color: white;
-	height: 80px;
-
-}
-
-#main-footer {
-	background: #333;
-	color: white;
-	text-align: center;
-	padding: 27px;
-	margin-top: 3px;
-}
-#main-footer p {
-		margin: 0;
-}
-#main-footer a {
-		color: white;
-}
-
-#contenedor{
-  display:grid;
-  border: 1px solid white;
-  grid-template-columns: 0.25fr 1fr 0.25fr;
-  grid-template-rows:  calc(2vh - 10px) calc(40vh - 10px) calc(20vh - 10px) calc(20vh - 10px);
-  grid-column-gap: 7px;
-  grid-row-gap: 7px;
-}
-
-#contenedor .foto{
-  grid-column: 2/3;
-  grid-row: 2/3;
-  position: relative;
-}
-#contenedor .foto img{
   width: 100%;
   height: 100%;
+  font-size: 1.1em;
 }
 
-#contenedor .texto1{
+.button{
+  border: 1px solid #64ffda;
+  color: var(--light);
+  cursor: pointer;
+  padding: 5px 10px;
+}
+#main-header{
+  display: flex;
+  justify-content: space-around;
+  box-shadow: var(--shadow);
+
+}
+#main-header .cabecera{
+  display: flex;
+
+}
+#main-header .cabecera1{
+}
+
+.cabecera ul li{
+  display: inline-block;
+  text-decoration: none;
+  justify-content: space-around;
+  color: #fff;
+}
+.cabecera ul li a{
+  color: #fff;
+}
+
+.logo{
+  width: 8%;
+}
+#contenido{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 10 35vh 35vh 20vh;
+  grid-gap: 10px;
+  margin: 10px 10px;
+}
+#contenido .caja{
+  grid-column: 1/2;
+  grid-row: 2/4;
+  text-align: center;
+}
+.bg-img{
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 625px;
+  height: auto;
+  z-index: -1;
+  opacity: 0.2;
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+#contenido .caja1{
   grid-column: 2/3;
-  grid-row: 3/5;
-  position: relative;
-  border: 2px solid white;
+  grid-row: 2/3;
+}
+#contenido .caja2{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+#contenido .caja3{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+#contenido .caja4{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+#contenido .caja5{
+  grid-column: 1/4;
+  grid-row: 4/5;
+  text-align: center;
+}
+.footer{
+  text-align: center;
+  font-size: 12px;
 }
