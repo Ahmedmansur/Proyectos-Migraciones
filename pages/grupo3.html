@@ -3,6 +3,10 @@
 	<head>
 		<title>Entrevistas</title>
 		<meta charset="utf-8"/>
+
+
+
+
 		<meta name="author" content="SMX A"/>
 		<link rel="stylesheet" href="../css/styleDGentrevistas.css"/>
 	</head>
@@ -55,6 +59,74 @@
 </header>
 <nav>
 <div id="cumcumtenedor">
+
+
+	<div class="sliderclasetext">
+		<section class="sliderclasetext">
+		  <h3 class="title">
+		    <span>Hi, nice</span>
+		    <span>to see</span>
+		    <span>you here</span>
+		  </h3>
+
+		  <h4 class="title">
+		    <span>This is</span>
+		    <span>SMX 1A class</span>
+		    <span> </span>
+				 <span>  </span>
+				 <span> </span>
+
+
+		  </h4>
+		</section>
+		<span class="barresiones">Barres i Ones secondary school</span>
+
+	</div>
+
+
+<div class="sliderclase">
+
+
+
+	  <img class="slider" src="../img/1.jpg" >
+	  <img class="slider" src="../img/2.jpg">
+	  <img class="slider" src="../img/3.jpg">
+	  <img class="slider" src="../img/4.jpg">
+		<img class="slider" src="../img/5.jpg" >
+		<img class="slider" src="../img/6keyhero.jpg" >
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slider");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3500);
+
+
+}
+</script>
+
+
+
+
+
+
+
+
+<div class="tituloentrevistas">
+<p class="tituloentrevistas">Interviewed people 3r C 2020-2021</p>
+</div>
+
 
 	<div class="entrevista1">
 	    <div class="flip-card">
@@ -137,8 +209,57 @@
 	    </div>
 	</div>
 
+
+	<div class="entrevista6">
+	    <div class="flip-card">
+	      <div class="flip-card-inner">
+	        <div class="flip-card-front">
+	          <img src="../img/Entrevista3.png">
+	        </div>
+	        <div class="flip-card-back">
+	          <h1>Efosa</h1>
+	          <h2>Va de lao en el ciclo</h2>
+	          <h2>Algún día entregará una práctica</h2>
+	        </div>
+	      </div>
+	    </div>
+	</div>
+
+
+
+
+
 </div>
+
 </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer>
 
 		</footer>
