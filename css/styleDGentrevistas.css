@@ -8,15 +8,22 @@ body{
   background-color:#0a192f;
   color:white;
 }
-
+:root{
+  --dark: #333;
+  --light: #fff;
+  --primary: #eee;
+  --shadow:  0px 1px 5px rgba(104, 104, 104, 0.5);
+  background:#0a192f;
+  color: #fff;
+}
 
 #cumtenedor{
   display:grid;
-  margin: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows:  calc(10vh) calc(5vh);
-  grid-column-gap: 7px;
-  grid-row-gap: 7px;
+  box-shadow: var(--shadow);
+
 }
 
 #cumtenedor .titulogrosso{
@@ -70,7 +77,9 @@ h1 a{
   text-align: center;
   font-size: 16px;
   position: relative;
-
+  border-right: 1px solid #64ffda;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #cumtenedor .navegacion2{
@@ -79,7 +88,9 @@ h1 a{
   text-align: center;
   font-size: 16px;
   position: relative;
-
+  border-right: 1px solid #64ffda;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #cumtenedor .navegacion3{
@@ -88,7 +99,9 @@ h1 a{
   text-align: center;
   font-size: 16px;
   position: relative;
-
+  border-right: 1px solid #64ffda;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #cumtenedor .navegacion4{
@@ -97,7 +110,42 @@ h1 a{
   text-align: center;
   font-size: 16px;
   position: relative;
+  border-right: 1px solid #64ffda;
+  margin-top: auto;
+  margin-bottom: auto;
 }
+#cumtenedor .navegacion5iconos{
+  grid-column: 5/6;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  max-width: 100%;
+
+}
+
+#cumtenedor ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+      }
+
+#cumtenedor ul li {
+        display: inline-block;
+        justify-content: center;
+      }
+
+#cumtenedor ul li a {
+        color: white;
+        display: block;
+        padding: 20px 20px;
+        text-decoration: none;
+      }
+
+
 #cumtenedor .cabecera{
   grid-column: 1/2;
   grid-row: 1/2;
@@ -105,6 +153,7 @@ h1 a{
 #cumtenedor .cabecera0{
   grid-column: 2/3;
   grid-row: 1/2;
+  margin-top: 10px;
   text-decoration: none;
   font-size: 12px;
   color: #fff;
@@ -113,13 +162,15 @@ h1 a{
 #cumtenedor .cabecera2{
   grid-column: 3/5;
   grid-row: 1/2;
+  margin-top: 10px;
   text-decoration: none;
   font-size: 12px;
   color: #fff;
   text-align: center;
 }
 .logo{
-  width: 30%;
+  width: 25%;
+  max-width: 100%;
 }
 
 
