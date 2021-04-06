@@ -219,6 +219,8 @@ h1 a{
   transition: width .3s
 }
 
+
+
 .flip-card {
   background-color: transparent;
   width:  100%;
@@ -309,14 +311,12 @@ h1 a{
 
 #cumcumtenedor{
   display:grid;
-  margin: 100px;
-  grid-template-columns:  1.5fr 15px 1fr 1fr 1fr;
-  grid-template-rows:  calc(21vh) calc(21vh) calc(21vh) calc(21vh);
-  grid-column-gap: 7px;
-  grid-row-gap: 7px;
-  grid-gap: 30px;
-  margin-top: 15px;
-  border-radius: 22px
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:  calc(10vh)  calc(33vh) calc(25vh) calc(33vh);
+  grid-row-gap: 80px;
+  margin-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 
@@ -346,25 +346,49 @@ h1 a{
 
 
 #cumcumtenedor .tituloentrevistas {
-  grid-column: 3/6;
+  grid-column: 1/4;
   grid-row: 1/2;
   position: relative;
-  font-size: 30px;
-  margin-top: 60px
+  font-size: 20px;
+  margin-left: 50px;
 }
 
+
+
+
+
+.image-box {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    overflow: hidden;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
+
+
+
+
 #cumcumtenedor .entrevista1 {
-  grid-column: 3/4;
+  grid-column: 1/2;
   grid-row: 2/3;
   position: relative;
 }
-#cumcumtenedor .entrevista1 img{
-  height: 100%;
-  width: 100%;
-  border-radius: 12px;
-}
+
 #cumcumtenedor .entrevista2{
-  grid-column: 4/5;
+  grid-column: 2/3;
   grid-row: 2/3;
   position: relative;
 }
@@ -374,7 +398,7 @@ h1 a{
   border-radius: 12px;
 }
 #cumcumtenedor .entrevista3{
-  grid-column: 5/6;
+  grid-column: 3/4;
   grid-row: 2/3;
   position: relative;
 }
@@ -384,8 +408,8 @@ h1 a{
   border-radius: 12px;
 }
 #cumcumtenedor .entrevista4{
-  grid-column: 3/4;
-  grid-row: 3/4;
+  grid-column: 1/2;
+  grid-row: 4/5;
   position: relative;
   }
 #cumcumtenedor .entrevista4 img{
@@ -394,8 +418,8 @@ h1 a{
   border-radius: 12px;
 }
 #cumcumtenedor .entrevista5{
-  grid-column: 4/5;
-  grid-row: 3/4;
+  grid-column: 2/3;
+  grid-row: 4/5;
   }
 #cumcumtenedor .entrevista5 img{
 
@@ -404,8 +428,8 @@ h1 a{
   border-radius: 12px;
 }
 #cumcumtenedor .entrevista6{
-  grid-column: 5/6;
-  grid-row: 3/4;
+  grid-column: 3/4;
+  grid-row: 4/5;
   position: relative;
 
   }
@@ -591,12 +615,6 @@ color: #000;
   grid-row: 2/3;
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
-  grid-column: 10/11;
-  grid-row: 2/3;
-}
 
 .fa-pinterest {
   background: #cb2027;
