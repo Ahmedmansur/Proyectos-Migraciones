@@ -27,20 +27,13 @@
    border-radius: 5px;
    margin: 20px;
 	 padding: 50px 0px 70px 0px;
-	 background-color: #212121;
-}
- .effect h2 {
-	 color: #fff;
-	 font-family: 'Playfair Display', serif;
-	 font-weight: 400;
-	 font-size: 25px;
-	 letter-spacing: 3px;
+	 background-color: #5080af;
 }
  .effect:nth-child(2) {
 	 margin-top: 50px;
 }
  .effect:nth-child(2n+1) {
-	 background-color: #fff;
+	 background-color:#5080af;
 }
  .effect:nth-child(2n+1) h2 {
 	 color: #212121;
