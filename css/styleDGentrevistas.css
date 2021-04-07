@@ -5,24 +5,25 @@
 
 body{
   font-family: 'Nunito', sans-serif;
-  background-color:#0a192f;
-  color:white;
+  background-color:#white;
+  color:black;
 }
 :root{
   --dark: #333;
   --light: #fff;
   --primary: #eee;
   --shadow:  0px 1px 5px rgba(104, 104, 104, 0.5);
-  background:#0a192f;
-  color: #fff;
+  background:#white;
+  color: #black;
 }
 
 #cumtenedor{
   display:grid;
   margin: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows:  calc(10vh) calc(5vh);
+  grid-template-rows:  calc(10vh) calc(10vh);
   box-shadow: var(--shadow);
+  background-color: #5080af;
 
 }
 
@@ -60,11 +61,16 @@ p a{
 
 }
 h2 {
-  font-size: 10px;
+  font-size: 22px;
   text-align: left;
   margin:10px;
   text-decoration: none;
+  color: #000;
+}
+h1{
   color: #fff;
+  font-size: 22px;
+  text-decoration: none;
 }
 h1 a{
   color: #fff;
@@ -77,7 +83,6 @@ h1 a{
   text-align: center;
   font-size: 16px;
   position: relative;
-  border-right: 1px solid #64ffda;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -88,7 +93,6 @@ h1 a{
   text-align: center;
   font-size: 16px;
   position: relative;
-  border-right: 1px solid #64ffda;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -99,26 +103,29 @@ h1 a{
   text-align: center;
   font-size: 16px;
   position: relative;
-  border-right: 1px solid #64ffda;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 #cumtenedor .navegacion4{
-  grid-column: 4/5;
-  grid-row: 2/3;
-  text-align: center;
-  font-size: 16px;
-  position: relative;
-  margin-top: auto;
-  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  max-width: 100%;
 }
+#cumtenedor .navegacion4 a:hover{
+  border-bottom: 2px #fff solid;
+  padding: 5px;
+}
+
 
 #cumtenedor ul {
         list-style: none;
         margin: 0;
         padding: 0;
         max-width: 100%;
+        display: flex;
       }
 
 #cumtenedor ul li {
@@ -126,12 +133,6 @@ h1 a{
         justify-content: center;
       }
 
-#cumtenedor ul li a {
-        color: white;
-        display: block;
-        padding: 20px 20px;
-        text-decoration: none;
-      }
 
 
 #cumtenedor .cabecera{
@@ -157,16 +158,18 @@ h1 a{
   text-align: center;
 }
 .logo{
-  width: 25%;
+  width: 30%;
+  max-width: 100%;
+}
+.logo1{
+  width: 30%;
   max-width: 100%;
 }
 
 
-
-
 .dropbtn {
   background-color: transparent;
-  color: white;
+  color: black;
   border: none;
   cursor: pointer;
 }
@@ -187,13 +190,13 @@ h1 a{
 }
 
 .dropdown-content a {
-  color: white;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ffa500}
+.dropdown-content a:hover {background-color: #9b9b9b  }
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -313,7 +316,7 @@ h1 a{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows:  calc(10vh)  calc(33vh) calc(25vh) calc(33vh);
-  grid-row-gap: 80px;
+  grid-row-gap: 20px;
   margin-top: 100px;
   padding-right: 100px;
   padding-left: 100px;
@@ -361,7 +364,6 @@ h1 a{
     position: relative;
     margin-left: 10%;
     margin-right: 10%;
-
     overflow: hidden;
 }
 .image-box img {
@@ -386,58 +388,45 @@ h1 a{
   grid-row: 2/3;
   position: relative;
 }
+#cumcumtenedor .textoentrevista1 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  position: relative;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 #cumcumtenedor .entrevista2{
   grid-column: 2/3;
   grid-row: 2/3;
   position: relative;
 }
-#cumcumtenedor .entrevista2 img{
-  height: 100%;
-  width: 100%;
-  border-radius: 12px;
-}
+
 #cumcumtenedor .entrevista3{
   grid-column: 3/4;
   grid-row: 2/3;
   position: relative;
 }
-#cumcumtenedor .entrevista3 img{
-  height: 100%;
-  width: 100%;
-  border-radius: 12px;
-}
+
 #cumcumtenedor .entrevista4{
   grid-column: 1/2;
   grid-row: 4/5;
   position: relative;
   }
-#cumcumtenedor .entrevista4 img{
-  height: 100%;
-  width: 100%;
-  border-radius: 12px;
-}
+
 #cumcumtenedor .entrevista5{
   grid-column: 2/3;
   grid-row: 4/5;
   }
-#cumcumtenedor .entrevista5 img{
 
-  height: 100%;
-  width: 100%;
-  border-radius: 12px;
-}
 #cumcumtenedor .entrevista6{
   grid-column: 3/4;
   grid-row: 4/5;
   position: relative;
 
   }
-#cumcumtenedor .entrevista6 img{
-  height: 100%;
-  width: 100%;
-  border-radius: 12px;
-}
+
 
 
 
