@@ -170,7 +170,7 @@ body::-webkit-scrollbar-thumb {
   animation: gradient 15s ease infinite;
 }
 h6{
-	color: yellow;
+	color: #5080af;
 	background-color: black;
 	padding: 10px;
 	font-size: 15px;
@@ -193,12 +193,12 @@ h6{
 
 
 .topnav a:hover {
-  background-color: #006eff;
+  background-color: #5080af;
   color: black;
 }
 
 
 .topnav a.active {
-  background-color: #af754c;
+  background-color: #5080af;
   color: white;
 }
