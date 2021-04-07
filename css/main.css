@@ -75,12 +75,13 @@ a{
   font-size: 18px;
   max-width: 100%;
 }
+
 #main-header a{
   color: #fff;
   text-decoration: none;
 }
 #main-header a:hover{
-  border-bottom: 2px #000000 solid;
+  border-bottom: 2px #fff solid;
   padding: 5px;
 }
 #main-header ul {
@@ -152,25 +153,36 @@ a{
   text-align: center;
   padding: 5px 5px;
 }
-
 #contenido .caja5{
-  grid-column: 1/4;
+  grid-column: 1/2;
   grid-row: 4/5;
   text-align: center;
   background: #fff;
   color: black;
   margin: 5px 20px;
 }
+#contenido .caja6{
+  grid-column: 2/4;
+  grid-row: 4/5;
+  text-align: center;
+  padding: 0px 150px;
+}
 .grup-img{
   width: 100%;
   margin-bottom: 10px;
 }
+.grup-img1{
+  width: 100%;
+  margin-top: 15px;
+}
 .footer{
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   margin: 20px 20px;
   box-shadow: var(--shadow);
   background: #5080af;
+  display: flex;
+  justify-content: center;
 }
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
