@@ -397,16 +397,6 @@ h1 a{
 
 
 
-
-
-
-
-
-
-
-
-
-
 h3, h4{
   font-size: 45px;
   text-transform: uppercase;
@@ -496,7 +486,6 @@ h4 span{
 
 .footer{
   text-align: center;
-  font-size: 20px;
   margin: 20px 20px;
   box-shadow: var(--shadow);
   background: #5080af;
@@ -505,6 +494,12 @@ h4 span{
 
 }
 
+
+.smx {
+ padding-top: 2%;
+ color: #000;
+ font-size: 18px
+}
 
 #cumcumcumtenedor  {
   display:grid;
