@@ -31,7 +31,85 @@ p a:hover{
 	margin: 0 auto;
 	width: 1100px;
 }
+.button{
+  border: 1px solid #5080af;
+  color: var(--light);
+  cursor: pointer;
+  padding: 5px 10px;
+  max-width: 100%;
+  border-radius: 20px;
+  overflow: visible;
+}
+.button:hover {
+  background-color: #5080af;
+}
+#main-header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(10vh) calc(10vh);
+  justify-content: space-around;
+  box-shadow: var(--shadow);
+  border-radius: 0px;
+  background: #5080af;
+  color: #fff;
+}
 
+#main-header .cabecera{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: auto;
+}
+#main-header .cabecera0{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 12px;
+  justify-content: space-around;
+  max-width: 100%;
+}
+#main-header .cabecera2{
+  grid-column: 3/5;
+  grid-row: 1/2;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+#main-header .cabecera1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  max-width: 100%;
+}
+
+#main-header a{
+  color: #fff;
+  text-decoration: none;
+}
+#main-header a:hover{
+  border-bottom: 2px #fff solid;
+  padding: 5px;
+}
+#main-header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        display: flex;
+      }
+
+#main-header ul li {
+        display: inline-block;
+        justify-content: center;
+      }
+.logo{
+  width: 30%;
+  max-width: 100%;
+}
+.logo1{
+  width: 30%;
+  max-width: 100%;
+}
 .black{color: black;}
 .white{color: white;}
 
@@ -128,7 +206,9 @@ p a:hover{
 
 #intro-container nav #logo{
 	width: 9%;
-
+}
+#section-columns{
+	padding: 100px;
 }
 
 #intro-container nav #menu-lista{
@@ -156,7 +236,7 @@ p a:hover{
 }
 body::-webkit-scrollbar {
   width: 0.7em;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 body::-webkit-scrollbar-track {
@@ -164,7 +244,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(-45deg, #4776E6, #8E54E9);
+  background: linear-gradient(-45deg, #4776E6, #000000);
   outline: 1px solid  #333;
   border-radius: 10px
   animation: gradient 15s ease infinite;
@@ -180,8 +260,6 @@ h6{
   background-color: #000000;
   overflow: hidden;
 }
-
-
 .topnav a {
   float: left;
   color: #f2f2f2;
