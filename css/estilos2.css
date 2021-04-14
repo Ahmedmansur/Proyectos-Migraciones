@@ -3,22 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .galeria{
-    font-family: 'open sans';
+    font-family: 'sans serif';
 }
-
 .galeria h1{
     text-align: center;
     margin:20px 0 15px 0;
     font-weight: 300;
 }
-
 .linea{
     border-top: 5px solid #0077C0;
     margin-bottom: 40px;
 }
-
 .contenedor-imagenes{
     display:flex;
     width: 85%;
@@ -82,7 +78,6 @@
         width: 48%;
     }
 }
-
 @media screen and (max-width:450px){
     h1{
         font-size:30px;
@@ -104,7 +99,6 @@
   background: #5080af;
   color: #fff;
 }
-
 #main-header .cabecera{
   grid-column: 1/2;
   grid-row: 1/2;
@@ -295,9 +289,6 @@ h1{
 .image-box:hover img {
     transform: scale(1.1);
 }
-
-
-
 .button{
   border: 1px solid #5080af;
   color: var(--light);
