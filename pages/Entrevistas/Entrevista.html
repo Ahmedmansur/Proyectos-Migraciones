@@ -6,20 +6,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../css/socialicons.css">
     <link rel="stylesheet" href="../../css/entrevista-main.css">
-    <script type="text/javascript">
-
-      $(window).load(function () {
-      $('.trigger_popup_fricc').click(function(){
-         $('.hover_bkgr_fricc').show();
-      });
-      $('.hover_bkgr_fricc').click(function(){
-          $('.hover_bkgr_fricc').hide();
-      });
-      $('.popupCloseButton').click(function(){
-          $('.hover_bkgr_fricc').hide();
-      });
-  })
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/main.js">  </script>
     <title>Proyecto Migración</title>
 </head>
 <body>
@@ -47,22 +35,30 @@
       <div id="contenido">
         <div class="caja1">
         <img src="../../img/naheed.png" data-src-600px="image-600px.jpg" data-src-800px="image-800px.jpg" alt="Img A" class="circle-img"/>
-         <a href="https://www.youtube.com/embed/zWqhN4qb8Dg" class="button1">Veure video</a>
+      
 
-              <a class="trigger_popup_fricc">Click here to show the popup</a>
+              <a class="trigger_popup_fricc">Veure el video</a>
 
       <div class="hover_bkgr_fricc">
           <span class="helper"></span>
           <div>
-              <div class="popupCloseButton">&times;</div>
-              <p>Add any HTML content<br />inside the popup box!</p>
+            <div class="popupCloseButton">&times;</div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/77fys2zftj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
       </div>
 
 </div>
         <div class="caja2">
         <img src="../../img/zain1.png" data-src-600px="image-600px.jpg" data-src-800px="image-800px.jpg" alt="Img A" class="circle-img"/>
-         <a href="https://www.youtube.com/embed/zWqhN4qb8Dg" class="button1">Veure video</a>
+         <a class="trigger_popup_fricc">Veure el video</a>
+
+ <div class="hover_bkgr_fricc">
+     <span class="helper"></span>
+     <div>
+       <div class="popupCloseButton">&times;</div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/zWqhN4qb8Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+ </div>
         </div>
 </div>
   </main>
