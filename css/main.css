@@ -406,3 +406,6 @@ a{
         content: attr(data-src-800px, url);
     }
 }
+.intro{
+  text-align: justify;
+}
