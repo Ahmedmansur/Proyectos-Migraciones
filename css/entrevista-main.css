@@ -469,4 +469,10 @@ a{
 .trigger_popup_fricc1:hover{
     background-color: #5080af;
 }
-/* Popup box BEGIN */
+.intro{
+  text-align: justify;
+  font-size: 30px;
+  line-height: 100%;
+  background-color: #cdcdcd;
+  font-weight: bold;
+}
