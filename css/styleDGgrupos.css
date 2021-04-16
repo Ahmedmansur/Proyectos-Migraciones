@@ -56,7 +56,16 @@ h1 a{
   color: #fff;
   text-decoration: none;
 }
+#cumtenedor{
+  display:grid;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:  calc(10vh) calc(10vh);
+  box-shadow: var(--shadow);
+  background-color: #5080af;
+  border-radius: 5px;
 
+}
 #cumtenedor .navegacion1{
   grid-column: 1/2;
   grid-row: 2/3;
