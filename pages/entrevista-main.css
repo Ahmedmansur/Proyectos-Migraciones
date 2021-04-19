@@ -234,7 +234,7 @@ a{
 }
 #contenido{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows:55vh;
   grid-gap: 10px;
   margin: 30px 0px;
@@ -268,15 +268,8 @@ a{
   display: grid;
   justify-content: center;
 }
-#contenido1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:55vh;
-  grid-gap: 10px;
-  margin: 30px 0px;
-}
-#contenido1 .caja3{
-  grid-column: 1/2;
+#contenido .caja3{
+  grid-column: 3/4;
   grid-row: 1/2;
   text-align: center;
   display: grid;
@@ -286,8 +279,8 @@ a{
   width: 90%;
   padding-left: 15px;
 }
-#contenido1 .caja4 {
-  grid-column: 2/3;
+#contenido .caja4 {
+  grid-column: 4/5;
   grid-row: 1/2;
   text-align: center;
   display: grid;
@@ -302,9 +295,6 @@ a{
   display: flex;
   justify-content: center;
 }
-.intro{
-  text-align: justify;
-}
 
 .modal-dialog {
       max-width: 800px;
@@ -314,15 +304,9 @@ a{
 
 
 .modal-body {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  position:relative;
+  padding:0px;
+
 }
 .close {
   position:absolute;
@@ -485,10 +469,4 @@ a{
 .trigger_popup_fricc1:hover{
     background-color: #5080af;
 }
-.intro{
-  text-align: justify;
-  font-size: 30px;
-  line-height: 100%;
-  background-color: #cdcdcd;
-  font-weight: bold;
-}
+/* Popup box BEGIN */
