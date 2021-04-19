@@ -19,26 +19,14 @@ body{
   background:#white;
   color: #black;
 }
-
-#cumtenedor{
-  display:grid;
-  margin: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows:  calc(10vh) calc(10vh);
-  box-shadow: var(--shadow);
-  background-color: #5080af;
-  border-radius: 5px;
-
-}
-
 p {
-  font-size: 16px;
+  font-size: 25px;
   margin: 0px;
   text-decoration: none;
   color: #fff;
 }
 p a{
-  font-size: 16px;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -52,9 +40,29 @@ p a{
 
 }
 h2 {
-
   text-decoration: none;
   color: #000;
+  text-align: center;
+  font-size: 40px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h2 {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 40px;
 }
 h1{
   color: #fff;
@@ -63,6 +71,16 @@ h1{
 h1 a{
   color: #fff;
   text-decoration: none;
+}
+#cumtenedor{
+  display:grid;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:  calc(10vh) calc(10vh);
+  box-shadow: var(--shadow);
+  background-color: #5080af;
+  border-radius: 5px;
+
 }
 #cumtenedor .navegacion1{
   grid-column: 1/2;
@@ -294,7 +312,6 @@ h1 a{
 }
 
 
-
 #container .textoterceroB {
   grid-column: 4/6;
   grid-row: 1/3;
@@ -312,10 +329,12 @@ h1 a{
   margin-top: 5%;
 
 }
-#container .textoterceroB h3 {
+#container .textoterceroB h4 {
   color: #ab2a3e;
-  font-size: 25px;
+  font-size: 40px;
   margin-top: 12%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #cumcumtenedor{
@@ -612,4 +631,9 @@ h1 a{
 .fa-rss {
   background: #ff6600;
   color: white;
+}
+.intro{
+  color:blue;
+  text-align: justify;
+  font-size: 10px;
 }
