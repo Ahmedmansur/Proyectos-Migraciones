@@ -234,8 +234,8 @@ a{
 }
 #contenido{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:55vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:55vh 45vh;
   grid-gap: 10px;
   margin: 30px 0px;
 }
@@ -268,15 +268,8 @@ a{
   display: grid;
   justify-content: center;
 }
-#contenido1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:55vh;
-  grid-gap: 10px;
-  margin: 30px 0px;
-}
-#contenido1 .caja3{
-  grid-column: 1/2;
+#contenido .caja3{
+  grid-column: 3/4;
   grid-row: 1/2;
   text-align: center;
   display: grid;
@@ -286,9 +279,23 @@ a{
   width: 90%;
   padding-left: 15px;
 }
-#contenido1 .caja4 {
+#contenido .text1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+#contenido .text1 {
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+#contenido .text1 {
+  grid-column: 3/4;
+  grid-row: 2/3;
   text-align: center;
   display: grid;
   justify-content: center;
@@ -305,7 +312,6 @@ a{
 .intro{
   text-align: justify;
 }
-
 .modal-dialog {
       max-width: 800px;
       margin: 30px auto;
@@ -314,15 +320,9 @@ a{
 
 
 .modal-body {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  position:relative;
+  padding:0px;
+
 }
 .close {
   position:absolute;
@@ -486,3 +486,17 @@ a{
     background-color: #5080af;
 }
 /* Popup box BEGIN */
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
