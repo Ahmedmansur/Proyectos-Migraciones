@@ -19,18 +19,14 @@ body{
   background:#white;
   color: #black;
 }
-
-
-
-
 p {
-  font-size: 16px;
+  font-size: 25px;
   margin: 0px;
   text-decoration: none;
   color: #fff;
 }
 p a{
-  font-size: 16px;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -44,9 +40,29 @@ p a{
 
 }
 h2 {
-
   text-decoration: none;
   color: #000;
+  text-align: center;
+  font-size: 40px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h2 {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 40px;
 }
 h1{
   color: #fff;
@@ -330,9 +346,16 @@ h1 a{
   font-size: 20px;
 
 }
-#container .textoterceroB h3 {
+#container .textoterceroB h4 {
   color: #ab2a3e;
+<<<<<<< HEAD
   font-size: 25px;
+=======
+  font-size: 40px;
+  margin-top: 12%;
+  text-align: center;
+  text-transform: uppercase;
+>>>>>>> 6354e959cfa05b5af6f51b70f0199dde80223e1b
 }
 
 #cumcumtenedor{
@@ -629,4 +652,9 @@ h1 a{
 .fa-rss {
   background: #ff6600;
   color: white;
+}
+.intro{
+  color:blue;
+  text-align: justify;
+  font-size: 10px;
 }

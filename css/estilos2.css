@@ -229,8 +229,13 @@ h3 {
 h2 {
   animation-duration: 3s;
   animation-name: slidein;
+  font-size: 40px;
+  padding-left: 40px;
 }
-
+.intro{
+  font-size: 25px;
+  padding: 40px;
+}
 @keyframes slidein {
   from {
     margin-left: 100%;
