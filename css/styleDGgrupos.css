@@ -508,7 +508,7 @@ h1 a{
 
 
 .smx {
- padding-top: 2%;
+  margin: 20px 20px;
  color: #000;
  font-size: 18px
 }
@@ -653,4 +653,10 @@ h1 a{
   color:blue;
   text-align: justify;
   font-size: 10px;
+}
+
+iframe {
+  margin: auto;
+  padding: inherit;
+  text-align: center;
 }
