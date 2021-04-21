@@ -239,7 +239,7 @@ a{
   grid-gap: 10px;
   margin: 30px 0px;
 }
-.button1{
+.button{
   border: 1px solid #5080af;
   color: var(--light);
   cursor: pointer;
@@ -250,7 +250,7 @@ a{
   text-align: center;
   margin: 5% 20%;
 }
-.button1:hover {
+.button:hover {
   background-color: #5080af;
 }
 #contenido .caja1{
@@ -464,9 +464,11 @@ a{
     padding: 5px 10px;
     max-width: 100%;
     border-radius: 20px;
+    align-items: center;
 }
 .trigger_popup_fricc1:hover{
     background-color: #5080af;
+    align-items: center;
 }
 
 .fade-in{
