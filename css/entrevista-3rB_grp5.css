@@ -239,33 +239,24 @@ a{
   grid-gap: 10px;
   margin: 30px 0px;
 }
-.button1{
-  border: 1px solid #5080af;
-  color: var(--light);
-  cursor: pointer;
-  padding: 5px 10px;
-  max-width: 100%;
-  border-radius: 20px;
-  overflow: visible;
-  text-align: center;
-  margin: 5% 20%;
-}
-.button1:hover {
-  background-color: #5080af;
-}
+
 #contenido .caja1{
   grid-column: 1/2;
   grid-row: 1/2;
   text-align: center;
+  display: grid;
+  justify-content: center;
 }
 #contenido .text1{
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
+  display: grid;
+  justify-content: center;
 }
 
 .circle-img{
-  width: 80%;
+  width: 90%;
   padding-left: 15px;
 }
 
