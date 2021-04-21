@@ -7,4 +7,62 @@
 					 <a href="SMX1A.html"> <img src="../img/ukk.png" alt="" width="10%" ></a>
 				 </div>
 			 </div>
-		 </div> 
+		 </div>
+
+
+
+//*ANIMACION TEXTO UWU UWU//*
+
+
+		 .fade-in{
+		   animation: fadeIn ease 2s;
+		   -webkit-animation: fadeIn ease 2s;
+		   -moz-animation: fadeIn ease 2s;
+		   -o-animation: fadeIn ease 2s;
+		   -ms-animation: fadeIn ease 2s;
+		 }
+		 @keyframes fadeIn {
+		   0% {
+		     opacity:0;
+		   }
+		   100% {
+		     opacity:1;
+		   }
+		 }
+
+		 @-moz-keyframes fadeIn {
+		   0% {
+		     opacity:0;
+		   }
+		   100% {
+		     opacity:1;
+		   }
+		 }
+
+		 @-webkit-keyframes fadeIn {
+		   0% {
+		     opacity:0;
+		   }
+		   100% {
+		     opacity:1;
+		   }
+		 }
+
+		 @-o-keyframes fadeIn {
+		   0% {
+		     opacity:0;
+		   }
+		   100% {
+		     opacity:1;
+		   }
+		 }
+
+		 @-ms-keyframes fadeIn {
+		   0% {
+		     opacity:0;
+		   }
+		   100% {
+		     opacity:1;
+		 }
+<h1 class="fade-in">Joel Mambrilla</h1>
+class="fade-in"
