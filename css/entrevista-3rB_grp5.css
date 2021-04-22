@@ -450,22 +450,53 @@ a{
 .trigger_popup_fricc1:hover{
     background-color: #5080af;
 }
-.intro{
-  text-align: justify;
-  font-size: 20px;
-  line-height: 100%;
-  animation-duration: 3s;
-  animation-name: slidein;
-
+.fade-in{
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
 }
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
+@keyframes fadeIn {
+  0% {
+    opacity:0;
   }
+  100% {
+    opacity:1;
+  }
+}
 
-  to {
-    margin-left: 0%;
-    width: 100%;
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
   }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
 }
