@@ -53,3 +53,14 @@ $(document).ready(function () {
            $('.hover_bkgr_fricc_pdf').hide();
        });
      });
+     $(document).ready(function () {
+        $('.trigger_popup_fricc1_pdf').click(function(){
+           $('.hover_bkgr_fricc1_pdf').show();
+        });
+        $('.hover_bkgr_fricc1_pdf').click(function(){
+            $('.hover_bkgr_fricc1_pdf').hide();
+        });
+        $('.popupCloseButton1_pdf').click(function(){
+            $('.hover_bkgr_fricc1_pdf').hide();
+        });
+      });
