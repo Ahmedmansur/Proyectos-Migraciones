@@ -42,3 +42,47 @@ $(document).ready(function () {
           $('.hover_bkgr_fricc3').hide();
       });
     });
+    $(document).ready(function () {
+       $('.trigger_popup_fricc4').click(function(){
+          $('.hover_bkgr_fricc4').show();
+       });
+       $('.hover_bkgr_fricc4').click(function(){
+           $('.hover_bkgr_fricc4').hide();
+       });
+       $('.popupCloseButton4').click(function(){
+           $('.hover_bkgr_fricc4').hide();
+       });
+     });
+    $(document).ready(function () {
+       $('.trigger_popup_fricc_pdf').click(function(){
+          $('.hover_bkgr_fricc_pdf').show();
+       });
+       $('.hover_bkgr_fricc_pdf').click(function(){
+           $('.hover_bkgr_fricc_pdf').hide();
+       });
+       $('.popupCloseButton_pdf').click(function(){
+           $('.hover_bkgr_fricc_pdf').hide();
+       });
+     });
+     $(document).ready(function () {
+        $('.trigger_popup_fricc1_pdf').click(function(){
+           $('.hover_bkgr_fricc1_pdf').show();
+        });
+        $('.hover_bkgr_fricc1_pdf').click(function(){
+            $('.hover_bkgr_fricc1_pdf').hide();
+        });
+        $('.popupCloseButton1_pdf').click(function(){
+            $('.hover_bkgr_fricc1_pdf').hide();
+        });
+      });
+     $(document).ready(function () {
+        $('.trigger_popup_fricc_PDF').click(function(){
+           $('.hover_bkgr_fricc_PDF').show();
+        });
+        $('.hover_bkgr_fricc_PDF').click(function(){
+            $('.hover_bkgr_fricc_PDF').hide();
+        });
+        $('.popupCloseButton_PDF').click(function(){
+            $('.hover_bkgr_fricc_PDF').hide();
+        });
+      });
