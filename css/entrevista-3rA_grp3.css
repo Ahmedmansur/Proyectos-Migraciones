@@ -803,7 +803,12 @@ border-radius: 20px;
 background-color: #5080af;
 }
 
+<<<<<<< HEAD
 .hover_bkgr_fricc_PDF{
+=======
+
+.hover_bkgr_fricc_PDF1{
+>>>>>>> 492f1b38ca678b0e96d61c401a8156d13040d4d5
 background:rgba(0,0,0,.4);
 cursor:pointer;
 display:none;
@@ -816,12 +821,12 @@ z-index:10000;
 left: 0;
 
 }
-.hover_bkgr_fricc_PDF .helper_PDF{
+.hover_bkgr_fricc_PDF1 .helper_PDF1{
 display:inline-block;
 height:100%;
 vertical-align:middle;
 }
-.hover_bkgr_fricc_PDF > div {
+.hover_bkgr_fricc_PDF1 > div {
 background-color: #fff;
 box-shadow: 10px 10px 60px #555;
 display: inline-block;
@@ -834,7 +839,7 @@ position: relative;
 border-radius: 8px;
 padding: 15px 5%;
 }
-.popupCloseButton_PDF {
+.popupCloseButton_PDF1 {
 background-color: #fff;
 border: 3px solid #999;
 border-radius: 50px;
@@ -851,10 +856,10 @@ width: 30px;
 height: 30px;
 text-align: center;
 }
-.popupCloseButton_PDF:hover {
+.popupCloseButton_PDF1:hover {
 background-color: #ccc;
 }
-.trigger_popup_fricc_PDF {
+.trigger_popup_fricc_PDF1 {
 cursor: pointer;
 font-size: 20px;
 margin: 20px;
@@ -865,10 +870,10 @@ padding: 5px 10px;
 max-width: 100%;
 border-radius: 20px;
 }
-.trigger_popup_fricc_PDF:hover{
+.trigger_popup_fricc_PDF1:hover{
 background-color: #5080af;
 }
-*/
+
 
 .hover_bkgr_fricc_guerra_pdf{
     background:rgba(0,0,0,.4);

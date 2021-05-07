@@ -344,7 +344,7 @@ h1 a{
 #cumcumtenedor{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: calc(85vh);
+  grid-template-rows: calc(100vh);
   grid-gap: 20px;
   margin-top: 10px;
   padding-right: 100px;

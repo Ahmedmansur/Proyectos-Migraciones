@@ -87,6 +87,7 @@ $(document).ready(function () {
         });
       });
       $(document).ready(function () {
+<<<<<<< HEAD
          $('.trigger_popup_fricc_guerra_1').click(function(){
             $('.hover_bkgr_fricc_guerra_1').show();
          });
@@ -95,5 +96,15 @@ $(document).ready(function () {
          });
          $('.popupCloseButton_guerra_1').click(function(){
              $('.hover_bkgr_fricc_guerra_1').hide();
+=======
+         $('.trigger_popup_fricc_PDF1').click(function(){
+            $('.hover_bkgr_fricc_PDF1').show();
+         });
+         $('.hover_bkgr_fricc_PDF1').click(function(){
+             $('.hover_bkgr_fricc_PDF1').hide();
+         });
+         $('.popupCloseButton_PDF1').click(function(){
+             $('.hover_bkgr_fricc_PDF1').hide();
+>>>>>>> 492f1b38ca678b0e96d61c401a8156d13040d4d5
          });
        });
