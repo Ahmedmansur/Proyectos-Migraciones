@@ -86,3 +86,14 @@ $(document).ready(function () {
             $('.hover_bkgr_fricc_PDF').hide();
         });
       });
+      $(document).ready(function () {
+         $('.trigger_popup_fricc_guerra_1').click(function(){
+            $('.hover_bkgr_fricc_guerra_1').show();
+         });
+         $('.hover_bkgr_fricc_guerra_1').click(function(){
+             $('.hover_bkgr_fricc_guerra_1').hide();
+         });
+         $('.popupCloseButton_guerra_1').click(function(){
+             $('.hover_bkgr_fricc_guerra_1').hide();
+         });
+       });

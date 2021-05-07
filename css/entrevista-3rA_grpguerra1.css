@@ -234,8 +234,8 @@ a{
 }
 #contenido{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows:calc(55vh) calc(55vh);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:calc(55vh) calc(35vh) calc(10vh);
   grid-gap: 10px;
   margin: 30px 0px;
 }
@@ -289,28 +289,24 @@ a{
   grid-column: 1/2;
   grid-row: 2/3;
   text-align: center;
-  display: grid;
   justify-content: center;
 }
 #contenido .text2 {
   grid-column: 2/3;
   grid-row: 2/3;
   text-align: center;
-  display: grid;
   justify-content: center;
 }
 #contenido .text3 {
   grid-column: 3/4;
   grid-row: 2/3;
   text-align: center;
-  display: grid;
   justify-content: center;
 }
 #contenido .text4 {
-  grid-column: 4/5;
-  grid-row: 2/3;
+  grid-column: 1/5;
+  grid-row: 3/4;
   text-align: center;
-  display: grid;
   justify-content: center;
 }
 
@@ -605,272 +601,8 @@ border-radius: 20px;
 background-color: #5080af;
 }
 
-.hover_bkgr_fricc3{
-background:rgba(0,0,0,.4);
-cursor:pointer;
-display:none;
-height:100%;
-position:fixed;
-text-align:center;
-top:0;
-width:100%;
-z-index:10000;
-left: 0;
-
-}
-.hover_bkgr_fricc3 .helper3{
-display:inline-block;
-height:100%;
-vertical-align:middle;
-}
-.hover_bkgr_fricc3 > div {
-background-color: #fff;
-box-shadow: 10px 10px 60px #555;
-display: inline-block;
-height: auto;
-max-width: 551px;
-min-height: 100px;
-vertical-align: middle;
-width: 60%;
-position: relative;
-border-radius: 8px;
-padding: 15px 5%;
-}
-.popupCloseButton3 {
-background-color: #fff;
-border: 3px solid #999;
-border-radius: 50px;
-cursor: pointer;
-display: inline-block;
-font-family: arial;
-font-weight: bold;
-position: absolute;
-top: -20px;
-right: -20px;
-font-size: 25px;
-line-height: 30px;
-width: 30px;
-height: 30px;
-text-align: center;
-}
-.popupCloseButton3:hover {
-background-color: #ccc;
-}
-.trigger_popup_fricc3 {
-cursor: pointer;
-font-size: 20px;
-margin: 20px;
-display: inline-block;
-border: 1px solid #5080af;
-color: var(--light);
-padding: 5px 10px;
-max-width: 100%;
-border-radius: 20px;
-}
-.trigger_popup_fricc3:hover{
-background-color: #5080af;
-}
-
-.hover_bkgr_fricc4{
-background:rgba(0,0,0,.4);
-cursor:pointer;
-display:none;
-height:100%;
-position:fixed;
-text-align:center;
-top:0;
-width:100%;
-z-index:10000;
-left: 0;
-
-}
-.hover_bkgr_fricc4 .helper4{
-display:inline-block;
-height:100%;
-vertical-align:middle;
-}
-.hover_bkgr_fricc4 > div {
-background-color: #fff;
-box-shadow: 10px 10px 60px #555;
-display: inline-block;
-height: auto;
-max-width: 551px;
-min-height: 100px;
-vertical-align: middle;
-width: 60%;
-position: relative;
-border-radius: 8px;
-padding: 15px 5%;
-}
-.popupCloseButton4 {
-background-color: #fff;
-border: 3px solid #999;
-border-radius: 50px;
-cursor: pointer;
-display: inline-block;
-font-family: arial;
-font-weight: bold;
-position: absolute;
-top: -20px;
-right: -20px;
-font-size: 25px;
-line-height: 30px;
-width: 30px;
-height: 30px;
-text-align: center;
-}
-.popupCloseButton4:hover {
-background-color: #ccc;
-}
-.trigger_popup_fricc4 {
-cursor: pointer;
-font-size: 20px;
-margin: 20px;
-display: inline-block;
-border: 1px solid #5080af;
-color: var(--light);
-padding: 5px 10px;
-max-width: 100%;
-border-radius: 20px;
-}
-.trigger_popup_fricc4:hover{
-background-color: #5080af;
-}
-
-.hover_bkgr_fricc_PDF{
-background:rgba(0,0,0,.4);
-cursor:pointer;
-display:none;
-height:100%;
-position:fixed;
-text-align:center;
-top:0;
-width:100%;
-z-index:10000;
-left: 0;
-
-}
-.hover_bkgr_fricc_PDF .helper_PDF{
-display:inline-block;
-height:100%;
-vertical-align:middle;
-}
-.hover_bkgr_fricc_PDF > div {
-background-color: #fff;
-box-shadow: 10px 10px 60px #555;
-display: inline-block;
-height: auto;
-max-width: 551px;
-min-height: 100px;
-vertical-align: middle;
-width: 60%;
-position: relative;
-border-radius: 8px;
-padding: 15px 5%;
-}
-.popupCloseButton_PDF {
-background-color: #fff;
-border: 3px solid #999;
-border-radius: 50px;
-cursor: pointer;
-display: inline-block;
-font-family: arial;
-font-weight: bold;
-position: absolute;
-top: -20px;
-right: -20px;
-font-size: 25px;
-line-height: 30px;
-width: 30px;
-height: 30px;
-text-align: center;
-}
-.popupCloseButton_PDF:hover {
-background-color: #ccc;
-}
-.trigger_popup_fricc_PDF {
-cursor: pointer;
-font-size: 20px;
-margin: 20px;
-display: inline-block;
-border: 1px solid #5080af;
-color: var(--light);
-padding: 5px 10px;
-max-width: 100%;
-border-radius: 20px;
-}
-.trigger_popup_fricc_PDF:hover{
-background-color: #5080af;
-}
-
-.hover_bkgr_fricc_PDF{
-background:rgba(0,0,0,.4);
-cursor:pointer;
-display:none;
-height:100%;
-position:fixed;
-text-align:center;
-top:0;
-width:100%;
-z-index:10000;
-left: 0;
-
-}
-.hover_bkgr_fricc_PDF .helper_PDF{
-display:inline-block;
-height:100%;
-vertical-align:middle;
-}
-.hover_bkgr_fricc_PDF > div {
-background-color: #fff;
-box-shadow: 10px 10px 60px #555;
-display: inline-block;
-height: auto;
-max-width: 551px;
-min-height: 100px;
-vertical-align: middle;
-width: 60%;
-position: relative;
-border-radius: 8px;
-padding: 15px 5%;
-}
-.popupCloseButton_PDF {
-background-color: #fff;
-border: 3px solid #999;
-border-radius: 50px;
-cursor: pointer;
-display: inline-block;
-font-family: arial;
-font-weight: bold;
-position: absolute;
-top: -20px;
-right: -20px;
-font-size: 25px;
-line-height: 30px;
-width: 30px;
-height: 30px;
-text-align: center;
-}
-.popupCloseButton_PDF:hover {
-background-color: #ccc;
-}
-.trigger_popup_fricc_PDF {
-cursor: pointer;
-font-size: 20px;
-margin: 20px;
-display: inline-block;
-border: 1px solid #5080af;
-color: var(--light);
-padding: 5px 10px;
-max-width: 100%;
-border-radius: 20px;
-}
-.trigger_popup_fricc_PDF:hover{
-background-color: #5080af;
-}
-*/
-
-.hover_bkgr_fricc_guerra_pdf{
+/* Popup box BEGIN */
+.hover_bkgr_fricc_guerra_1{
     background:rgba(0,0,0,.4);
     cursor:pointer;
     display:none;
@@ -880,14 +612,15 @@ background-color: #5080af;
     top:0;
     width:100%;
     z-index:10000;
-    left: 0px;
+    left: 0;
+
 }
-.hover_bkgr_fricc_guerra_pdf .helper_guerra_pdf{
+.hover_bkgr_fricc_guerra_1 .helper_guerra_1{
     display:inline-block;
     height:100%;
     vertical-align:middle;
 }
-.hover_bkgr_fricc_guerra_pdf > div {
+.hover_bkgr_fricc_guerra_1 > div {
     background-color: #fff;
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
@@ -895,13 +628,12 @@ background-color: #5080af;
     max-width: 551px;
     min-height: 100px;
     vertical-align: middle;
-    width: 80%;
-    height: 500px;
+    width: 60%;
     position: relative;
     border-radius: 8px;
     padding: 15px 5%;
 }
-.popupCloseButton_guerra_pdf {
+.popupCloseButton_guerra_1 {
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -918,10 +650,10 @@ background-color: #5080af;
     height: 30px;
     text-align: center;
 }
-.popupCloseButton_guerra_pdf:hover {
+.popupCloseButton_guerra_1:hover {
     background-color: #ccc;
 }
-.trigger_popup_fricc_guerra_pdf {
+.trigger_popup_fricc_guerra_1 {
     cursor: pointer;
     font-size: 20px;
     margin: 20px;
@@ -932,11 +664,10 @@ background-color: #5080af;
     max-width: 100%;
     border-radius: 20px;
 }
-.trigger_popup_fricc_guerra_pdf:hover{
+.trigger_popup_fricc_guerra_1:hover{
     background-color: #5080af;
 }
 /* Popup box BEGIN */
-
 .fade-in{
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
