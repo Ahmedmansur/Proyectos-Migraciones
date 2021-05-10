@@ -97,6 +97,7 @@ $(document).ready(function () {
              $('.hover_bkgr_fricc_guerra_1').hide();
          });
        });
+<<<<<<< HEAD
 
        $(document).ready(function () {
           $('.trigger_popup_fricc_D2').click(function(){
@@ -109,3 +110,38 @@ $(document).ready(function () {
               $('.hover_bkgr_fricc_D2').hide();
           });
         });
+=======
+       $(document).ready(function () {
+          $('.trigger_popup_fricc2_b').click(function(){
+             $('.hover_bkgr_fricc2_b').show();
+          });
+          $('.hover_bkgr_fricc2_b').click(function(){
+              $('.hover_bkgr_fricc2_b').hide();
+          });
+          $('.popupCloseButton2_b').click(function(){
+              $('.hover_bkgr_fricc2_b').hide();
+          });
+        });
+        $(document).ready(function () {
+           $('.trigger_popup_fricc_3').click(function(){
+              $('.hover_bkgr_fricc_3').show();
+           });
+           $('.hover_bkgr_fricc_3').click(function(){
+               $('.hover_bkgr_fricc_3').hide();
+           });
+           $('.popupCloseButton_3').click(function(){
+               $('.hover_bkgr_fricc_3').hide();
+           });
+         });
+         $(document).ready(function () {
+            $('.trigger_popup_fricc_1').click(function(){
+               $('.hover_bkgr_fricc_1').show();
+            });
+            $('.hover_bkgr_fricc_1').click(function(){
+                $('.hover_bkgr_fricc_1').hide();
+              });
+            $('.popupCloseButton_1').click(function(){
+                $('.hover_bkgr_fricc_1').hide();
+            });
+          });
+>>>>>>> f8851b2c3572bd68bb78515053ed1ee04ab7c08c
