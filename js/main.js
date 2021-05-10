@@ -97,3 +97,15 @@ $(document).ready(function () {
              $('.hover_bkgr_fricc_guerra_1').hide();
          });
        });
+
+       $(document).ready(function () {
+          $('.trigger_popup_fricc_D2').click(function(){
+             $('.hover_bkgr_fricc_D2').show();
+          });
+          $('.hover_bkgr_fricc_D2').click(function(){
+              $('.hover_bkgr_fricc_D2').hide();
+          });
+          $('.popupCloseButton_D2').click(function(){
+              $('.hover_bkgr_fricc_D2').hide();
+          });
+        });
