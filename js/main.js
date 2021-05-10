@@ -97,20 +97,6 @@ $(document).ready(function () {
              $('.hover_bkgr_fricc_guerra_1').hide();
          });
        });
-<<<<<<< HEAD
-
-       $(document).ready(function () {
-          $('.trigger_popup_fricc_D2').click(function(){
-             $('.hover_bkgr_fricc_D2').show();
-          });
-          $('.hover_bkgr_fricc_D2').click(function(){
-              $('.hover_bkgr_fricc_D2').hide();
-          });
-          $('.popupCloseButton_D2').click(function(){
-              $('.hover_bkgr_fricc_D2').hide();
-          });
-        });
-=======
        $(document).ready(function () {
           $('.trigger_popup_fricc2_b').click(function(){
              $('.hover_bkgr_fricc2_b').show();
@@ -144,4 +130,3 @@ $(document).ready(function () {
                 $('.hover_bkgr_fricc_1').hide();
             });
           });
->>>>>>> f8851b2c3572bd68bb78515053ed1ee04ab7c08c
