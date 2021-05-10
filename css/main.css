@@ -131,104 +131,6 @@ a{
       }
 
 
-
-
-      .dropbtn1{
-        background-color: transparent;
-        color: black;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        height: 20%;
-      }
-      .dropbtn1 img{
-
-       height: 100%;
-       width: 100%;
-      }
-      .dropdown {
-        position: relative;
-        display: inline-block;
-
-      }
-
-      .dropdown-content img{
-        text-align: left;
-        background-color: white;
-        min-width: 35px;
-        max-width: 100px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-      .dropdown-content img a {
-        color: black;
-
-        text-decoration: none;
-        display: block;
-      }
-
-      .dropdown-content img a:hover img {background-color: #9b9b9b  }
-
-      .dropdown:hover img .dropdown-content img {
-        display: block;
-      }
-
-      .dropdown:hover img .dropbtn img{
-        background-color: none;
-      }
-
-
-      .dropbtn {
-        background-color: transparent;
-        color: black;
-        border: none;
-        cursor: pointer;
-
-      }
-
-
-
-      .dropdown-content {
-        display: none;
-        text-align: left;
-        position: absolute;
-        background-color: white;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-
-      .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-
-      .dropdown-content a:hover {background-color: #9b9b9b  }
-
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-
-      .dropdown:hover .dropbtn {
-        background-color: none;
-      }
-
-
-      .cum-cum::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: #fff;
-        transition: width .3s
-      }
-      .cum-cum:hover::after{
-        width: 100%;
-        transition: width .3s
-      }
-
 #cumtenedor p {
         font-size: 16px;
         margin: 0px;
@@ -262,6 +164,105 @@ a{
         color: #fff;
         text-decoration: none;
       }
+
+
+
+            .dropbtn1{
+              background-color: transparent;
+              color: black;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+              height: 20%;
+            }
+            .dropbtn1 img{
+
+             height: 100%;
+             width: 100%;
+            }
+            .dropdown {
+              position: relative;
+              display: inline-block;
+
+            }
+
+            .dropdown-content img{
+              text-align: left;
+              background-color: white;
+              min-width: 35px;
+              max-width: 100px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            .dropdown-content img a {
+              color: black;
+
+              text-decoration: none;
+              display: block;
+            }
+
+            .dropdown-content img a:hover img {background-color: #9b9b9b  }
+
+            .dropdown:hover img .dropdown-content img {
+              display: block;
+            }
+
+            .dropdown:hover img .dropbtn img{
+              background-color: none;
+            }
+
+
+            .dropbtn {
+              background-color: transparent;
+              color: black;
+              border: none;
+              cursor: pointer;
+
+            }
+
+
+
+            .dropdown-content {
+              display: none;
+              text-align: left;
+              position: absolute;
+              background-color: white;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+
+            .dropdown-content a:hover {background-color: #9b9b9b  }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+              background-color: none;
+            }
+
+
+            .cum-cum::after {
+              content: '';
+              display: block;
+              width: 0;
+              height: 2px;
+              background: #fff;
+              transition: width .3s
+            }
+            .cum-cum:hover::after{
+              width: 100%;
+              transition: width .3s
+            }
+
 #main-header{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

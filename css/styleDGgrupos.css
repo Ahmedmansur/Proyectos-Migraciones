@@ -20,13 +20,11 @@ body{
   color: #black;
 }
 p {
-  font-size: 16px;
   margin: 0px;
   text-decoration: none;
   color: #fff;
 }
 p a{
-  font-size: 16px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -169,6 +167,81 @@ h1 a{
 
 
 
+#container {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:  calc(20vh) calc(15vh) ;
+  grid-row-gap: 20px;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#container .mhic {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  position: relative;
+  overflow: hidden;
+}
+#container .mhic img{
+  width: 494px;
+  height: 104px;
+  transition: all 0.3s;
+  transform: scale(1);
+  display: block;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#container .mhic:hover img{
+  transform: scale(1.1);
+}
+#container .Eso {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  position: relative;
+  overflow: hidden;
+}
+#container .Eso img{
+  width: 90%;
+  height: 90%;
+  transition: all 0.3s;
+  transform: scale(1);
+  display: block;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#container .Eso:hover img{
+  transform: scale(1.1);
+}
+
+#container .textoterceroB {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  text-align: justify;
+  padding: 0 10%;
+}
+#container .textoterceroB h2 {
+  color: #ab2a3e;
+  font-size: 30px;
+
+}
+#container .textoterceroB p {
+  color: #ab2a3e;
+  font-size: 20px;
+
+}
+#container .textoterceroB h4 {
+  color: #ab2a3e;
+  font-size: 40px;
+  margin-top: 12%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 .logo{
   width: 30%;
@@ -278,81 +351,6 @@ h1 a{
   transition: width .3s
 }
 
-
-#container {
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows:  calc(20vh) calc(15vh) ;
-  grid-row-gap: 20px;
-  margin-top: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-#container .mhic {
-  grid-column: 1/3;
-  grid-row: 1/2;
-  position: relative;
-  overflow: hidden;
-}
-#container .mhic img{
-  width: 494px;
-  height: 104px;
-  transition: all 0.3s;
-  transform: scale(1);
-  display: block;
-  border-radius: 3px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-#container .mhic:hover img{
-  transform: scale(1.1);
-}
-#container .Eso {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  position: relative;
-  overflow: hidden;
-}
-#container .Eso img{
-  width: 90%;
-  height: 90%;
-  transition: all 0.3s;
-  transform: scale(1);
-  display: block;
-  border-radius: 3px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-#container .Eso:hover img{
-  transform: scale(1.1);
-}
-
-#container .textoterceroB {
-  grid-column: 1/4;
-  grid-row: 2/3;
-  text-align: justify;
-  padding: 0 10%;
-}
-#container .textoterceroB h2 {
-  color: #ab2a3e;
-  font-size: 30px;
-
-}
-#container .textoterceroB p {
-  color: #ab2a3e;
-  font-size: 20px;
-
-}
-#container .textoterceroB h4 {
-  color: #ab2a3e;
-  font-size: 40px;
-  margin-top: 12%;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 #cumcumtenedor{
   display:grid;
