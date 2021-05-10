@@ -228,9 +228,10 @@ a{
   width: 30%;
   max-width: 100%;
 }
-.logo1{
-  width: 30%;
+.logo1 {
+  width: 20%;
   max-width: 100%;
+  margin-left: 50px;
 }
 #contenido{
   display: grid;
