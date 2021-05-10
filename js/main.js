@@ -87,6 +87,17 @@ $(document).ready(function () {
         });
       });
       $(document).ready(function () {
+         $('.trigger_popup_fricc_PDF1').click(function(){
+            $('.hover_bkgr_fricc_PDF1').show();
+         });
+         $('.hover_bkgr_fricc_PDF1').click(function(){
+             $('.hover_bkgr_fricc_PDF1').hide();
+         });
+         $('.popupCloseButton_PDF1').click(function(){
+             $('.hover_bkgr_fricc_PDF1').hide();
+         });
+       });
+      $(document).ready(function () {
          $('.trigger_popup_fricc_guerra_1').click(function(){
             $('.hover_bkgr_fricc_guerra_1').show();
          });
@@ -141,3 +152,25 @@ $(document).ready(function () {
                  $('.hover_bkgr_fricc_D2').hide();
              });
            });
+           $(document).ready(function () {
+              $('.trigger_popup_fricc_C1').click(function(){
+                 $('.hover_bkgr_fricc_C1').show();
+              });
+              $('.hover_bkgr_fricc_C1').click(function(){
+                  $('.hover_bkgr_fricc_C1').hide();
+              });
+              $('.popupCloseButton_C1').click(function(){
+                  $('.hover_bkgr_fricc_C1').hide();
+              });
+            });
+            $(document).ready(function () {
+               $('.trigger_popup_fricc_C2').click(function(){
+                  $('.hover_bkgr_fricc_C2').show();
+               });
+               $('.hover_bkgr_fricc_C2').click(function(){
+                   $('.hover_bkgr_fricc_C2').hide();
+               });
+               $('.popupCloseButton_C2').click(function(){
+                   $('.hover_bkgr_fricc_C2').hide();
+               });
+             });
