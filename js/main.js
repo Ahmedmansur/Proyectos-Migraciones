@@ -207,3 +207,25 @@ $(document).ready(function () {
                          $('.hover_bkgr_fricc_E1').hide();
                      });
                    });
+                   $(document).ready(function () {
+                       $('.trigger_popup_friccg2_pdf').click(function(){
+                          $('.hover_bkgr_friccg2_pdf').show();
+                       });
+                       $('.hover_bkgr_friccg2_pdf').click(function(){
+                           $('.hover_bkgr_friccg2_pdf').hide();
+                       });
+                       $('.popupCloseButtong2_pdf').click(function(){
+                           $('.hover_bkgr_friccg2_pdf').hide();
+                       });
+                     });
+                     $(document).ready(function () {
+                         $('.trigger_popup_friccgrp5_pdf').click(function(){
+                            $('.hover_bkgr_friccgrp5_pdf').show();
+                         });
+                         $('.hover_bkgr_friccgrp5_pdf').click(function(){
+                             $('.hover_bkgr_friccgrp5_pdf').hide();
+                         });
+                         $('.popupCloseButtongrp5_pdf').click(function(){
+                             $('.hover_bkgr_friccgrp5_pdf').hide();
+                         });
+                       });
