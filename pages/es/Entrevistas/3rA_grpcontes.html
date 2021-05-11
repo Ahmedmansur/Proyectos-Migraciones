@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../../css/socialicons.css">
-    <link rel="stylesheet" href="../../../css/entrevista-3rB_grp5.css">
+    <link rel="stylesheet" href="../../../css/entrevista-3rA_grpcontes.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="../../../js/main.js">  </script>
-    <title>3rB Grup 5</title>
+    <title>3rA Grup 1 </title>
 </head>
 <body>
   <header>
@@ -42,20 +42,55 @@
     <main>
       <div id="contenido">
         <div class="caja1">
-        <img src="../../../img/Isabel.png" data-src-600px="image-600px.jpg" data-src-800px="image-800px.jpg" alt="Img A"  class="fade-in" class="circle-img"/>
-          <a class="trigger_popup_fricc">Veure el video</a>
-            <div class="hover_bkgr_fricc">
-                <span class="helper"></span>
-                <div>
-                  <div class="popupCloseButton">&times;</div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/35zAp5BCSu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+          <div class="slider">
+
+            <div id="img">
+              <img src="../../../img/3rA_grp_Contes/contes1.jpg">
             </div>
+
+          </div>
+
+          <script class="slider">
+
+            var images = ['../../../img/3rA_grp_Contes/contes2.jpg', '../../../img/3rA_grp_Contes/contes3.jpg', '../../../img/3rA_grp_Contes/contes1.jpg',];
+
+            var x = 0;
+
+            var imgs = document.getElementById('img');
+
+            setInterval(slider, 2000);
+
+
+            function slider() {
+
+              if (x < images.length) {
+                x = x + 1;
+              } else {
+                x = 1;
+              }
+
+
+              imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+
+
+            }
+
+
+          </script>
+
+
         </div>
         <div class="caja2">
-          <h1 class="fade-in">Isabel Cortés</h1>
+          <h1 class="fade-in">Conte</h1>
             <p class="fade-in">Trinidad Moreno entrevista a Isabel Cortés, de 26 anys. Ha vingut a Barcelona des de Saragossa per acabar els seus estudis universitaris.</p>
-
+            <a class="trigger_popup_fricc_pdf">Veure l'infografia</a>
+              <div class="hover_bkgr_fricc_pdf">
+                  <span class="helper"></span>
+                  <div>
+                    <div class="popupCloseButton_pdf">&times;</div>
+                      <embed width="100%" height="500px" src="../../../img/3rA, La maleta de les històries.pdf" title="pdf_conte" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                  </div>
+              </div>
         </div>
       </div>
   </main>

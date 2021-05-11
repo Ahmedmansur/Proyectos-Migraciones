@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../../css/socialicons.css">
-    <link rel="stylesheet" href="../../../css/entrevista-3rB_grp5.css">
+    <link rel="stylesheet" href="../../../css/entrevista-3rB_grp4.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../../../js/main.js">  </script>
-    <title>Proyecto Migración</title>
+    <script type="text/javascript" src="../../js/main.js">  </script>
+    <title>3rB Grup 4</title>
 </head>
 <body>
   <header>
@@ -18,11 +18,11 @@
   				<img src="../../../img/barres.png" alt="INS Barres I Ones" class="logo"></div>
   			<div class="cabecera0"><h1>Projecte Migració</h1></div>
   			<div class="cabecera2"> <h1> <a href="https://agora.xtec.cat/insbarresiones/">INS Barres I Ones</a></</h1></div>
-  		  <div class="navegacion1"> <button class="button"> <p class="cum-cum">  <a href="../../../index.html"> Inicio </a> </p>   </button>  </div>
+  		  <div class="navegacion1"> <button class="button"> <p class="cum-cum">  <a href="../../../index.html"> Inici </a> </p>   </button>  </div>
   		  <div class="navegacion2"> <button class="button"> <p class="cum-cum"> <a href="#"> Sobre </a> </p>  </button> </div>
   			<div class="navegacion3">
   				<div class="dropdown">
-  				  <button class="dropbtn"> <p class="cum-cum"> Contacto   </p> </button>
+  				  <button class="dropbtn"> <p class="cum-cum">Contacte</p> </button>
   				  <div class="dropdown-content">
   				    <a href="https://agora.xtec.cat/insbarresiones/contacte/">Barres i Ones</a>
   				    <a href="SMX1A.html">1r SMX A</a>
@@ -32,10 +32,9 @@
   	 		</div>
   			<div class="navegacion4">
   				<ul>
-  					<li><a href="#"><img src="../../../img/catalan.png" alt="" class="logo1"> </a></li>
-  					<li><a href="#"><img src="../../../img/uk.png" alt="" class="logo1"> </a></li>
-  					<li><a href="#"><img src="../../../img/españa.webp" alt="" class="logo1"> </a></li>
-  					<li><a href="#"><img src="../../../img/youtube.png" alt="" class="logo1"> </a></li>
+            <li><a href="index.html"><img src="../../../img/catalan.png" alt="" class="logo1"> </a></li>
+            <li><a href="index-es.html"><img src="../../../img/españa.webp" alt="" class="logo1"> </a></li>
+            <li><a href="#"><img src="../../../img/youtube.png" alt="" class="logo1"> </a></li>
   				</ul>
   			 </div>
   		 </div>
@@ -43,20 +42,63 @@
     <main>
       <div id="contenido">
         <div class="caja1">
-        <img src="../../../img/Isabel.png" data-src-600px="image-600px.jpg" data-src-800px="image-800px.jpg" alt="Img A"  class="fade-in" class="circle-img"/>
-          <a class="trigger_popup_fricc">Veure el video</a>
-            <div class="hover_bkgr_fricc">
-                <span class="helper"></span>
-                <div>
-                  <div class="popupCloseButton">&times;</div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/35zAp5BCSu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+          <div class="slider">
+
+            <div id="img">
+              <img src="../../../img/fugir1.jpg">
             </div>
+
+          </div>
+
+          <script class="slider">
+
+            var images = ['../../../img/fugir1.jpg', '../../../img/fugir_legenda.jpg',];
+
+            var x = 0;
+
+            var imgs = document.getElementById('img');
+
+            setInterval(slider, 2000);
+
+
+            function slider() {
+
+              if (x < images.length) {
+                x = x + 1;
+              } else {
+                x = 1;
+              }
+
+
+              imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+
+
+            }
+
+
+          </script>
+
+
         </div>
         <div class="caja2">
-          <h1 class="fade-in">Isabel Cortés</h1>
-            <p class="fade-in">Trinidad Moreno entrevista a Isabel Cortés, de 26 anys. Ha vingut a Barcelona des de Saragossa per acabar els seus estudis universitaris.</p>
-
+          <h1 class="fade-in">Fugir per Sentir amb la llenga dels colors</h1>
+            <p class="fade-in">Miriam Lineth Navas, Ikram El Fanoun i Sonia Simó</p>
+            <a class="trigger_popup_fricc_pdf">Veure l'infografia</a>
+              <div class="hover_bkgr_fricc_pdf">
+                  <span class="helper"></span>
+                  <div>
+                    <div class="popupCloseButton_pdf">&times;</div>
+                      <embed width="100%" height="500px" src="../../../img/3rB, Fugir per_ sentir....pdf" title="pdf_conte" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                  </div>
+              </div>
+              <a class="trigger_popup_fricc1_pdf">Veure l'infografia</a>
+                    <div class="hover_bkgr_fricc1_pdf">
+                        <span class="helper1"></span>
+                        <div>
+                          <div class="popupCloseButton1_pdf">&times;</div>
+                            <embed width="100%" height="500px" src="../../../img/Llegenda dels colors.pdf" title="pdf_conte" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                        </div>
+                    </div>
         </div>
       </div>
   </main>
