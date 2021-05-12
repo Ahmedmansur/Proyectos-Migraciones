@@ -342,7 +342,7 @@ h1 a{
 
 }
 #container .textoterceroB p {
-  color: #000;
+  color: #ab2a3e;
   font-size: 20px;
 
 }
@@ -357,7 +357,7 @@ h1 a{
 #cumcumtenedor{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: calc(70vh);
+  grid-template-rows: calc(72vh);
   grid-gap: 20px;
   margin-top: 10px;
   padding-right: 100px;
