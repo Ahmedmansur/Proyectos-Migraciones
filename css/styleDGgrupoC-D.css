@@ -166,7 +166,6 @@ h1 a{
   margin-left: 50px;
 }
 
-
 .dropbtn1{
   background-color: transparent;
   color: black;
@@ -389,7 +388,7 @@ h1 a{
 #cumcumtenedor{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: calc(92vh);
+  grid-template-rows: calc(60vh);
   grid-gap: 20px;
   margin-top: 10px;
   padding-right: 100px;
@@ -434,9 +433,10 @@ h1 a{
 }
 .image-box {
     position: center;
-    margin: 15px 10px;
+    margin: 15px 0px;
+    margin-left: 55px;
     overflow: hidden;
-    width: 95%;
+    width: 80%;
     border-radius: 5%;
 }
 .image-box img {
