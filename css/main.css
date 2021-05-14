@@ -333,7 +333,7 @@ a{
 #contenido{
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows:63vh 63vh 63vh;
+  grid-template-rows:67vh 67vh 67vh;
   grid-gap: 10px;
   margin-top: 10px;
 }

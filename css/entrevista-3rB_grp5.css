@@ -247,15 +247,11 @@ a{
   display: grid;
   justify-content: center;
 }
-#contenido .text1{
+#contenido .caja2{
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
-  display: grid;
   justify-content: center;
-}
-.pdfbrr2{
-  text-align: center;
 }
 
 .circle-img{
